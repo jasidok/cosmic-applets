@@ -18,7 +18,7 @@ impl Default for CosmicPanelButtonConfig {
                 (
                     "Panel".to_string(),
                     IndividualConfig {
-                        force_presentation: None,
+                        force_presentation: Some(Override::Icon),
                     },
                 ),
                 (
